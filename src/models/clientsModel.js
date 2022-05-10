@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize';
 import db from '../db.js';
 
-export default db.define('clientes', {
+export default db.define('clientes_otaviano', {
     id: {
         type: Sequelize.INTEGER.UNSIGNED,
         primaryKey: true,
